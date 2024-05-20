@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Programs</title>
-<link rel="stylesheet" href="pro.css">
+<link rel="stylesheet" href="styles.css" />
 <style>
 
 body {
@@ -47,8 +47,12 @@ body {
 </style>
 </head>
 <body>
+  <div class="nav__logo">
+    <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+  </div>
 <h1>Program Options</h1>
 <br><br><hr><br><br><br>     <br> <br> <br> <br>  
+<div> <p> click on the program you want :</p></div> 
 <div class="container">
   <button class="button-title" id="bodybuilding-title">Bodybuilding Program</button>
   <button class="button-title" id="crossfit-title">Crossfit Program</button>
@@ -237,6 +241,12 @@ body {
   
     <p>Remember to stay hydrated, listen to your body, and adjust the intensity or duration of the workouts as needed. Consistency is key, so aim to stick to the program and gradually increase the intensity as you progress.</p>
   </div></div>
+  <section class="section__container logo__banner">
+    <img src="assets/banner-1.png" alt="banner" />
+    <img src="assets/banner-2.png" alt="banner" />
+    <img src="assets/banner-3.png" alt="banner" />
+    <img src="assets/banner-4.png" alt="banner" />
+  </section>
   <script>
 document.getElementById("bodybuilding-title").addEventListener("click", function() {
       toggleProgram("bodybuilding-program");
