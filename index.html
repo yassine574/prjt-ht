@@ -3,16 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
     <link rel="stylesheet" href="styles.css" />
-    <title>Web Design Mastery | FitPhysique</title>
+    <title>FitPhysique</title>
   </head>
   <body>
     <nav>
@@ -22,7 +14,6 @@
             <a href="#"><img src="assets/logo.png" alt="logo" /></a>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
-            <i class="ri-menu-line"></i>
           </div>
         </div>
         <ul class="nav__links" id="nav-links">
@@ -122,41 +113,21 @@
           <img src="assets/trainer-1.jpg" alt="trainer" />
           <h4>DAVID </h4>
           <p>Body Builder Coach</p>
-          <div class="trainer__socials">
-            <a href="#"><i class="ri-facebook-fill"></i></a>
-            <a href="#"><i class="ri-twitter-fill"></i></a>
-            <a href="#"><i class="ri-youtube-fill"></i></a>
-          </div>
         </div>
         <div class="trainer__card">
           <img src="assets/trainer-2.jpg" alt="trainer" />
           <h4>razan</h4>
           <p>Cardio Coach</p>
-          <div class="trainer__socials">
-            <a href="#"><i class="ri-facebook-fill"></i></a>
-            <a href="#"><i class="ri-twitter-fill"></i></a>
-            <a href="#"><i class="ri-youtube-fill"></i></a>
-          </div>
         </div>
         <div class="trainer__card">
           <img src="assets/trainer-3.jpg" alt="trainer" />
           <h4>redouan</h4>
           <p>Fitness Coach</p>
-          <div class="trainer__socials">
-            <a href="#"><i class="ri-facebook-fill"></i></a>
-            <a href="#"><i class="ri-twitter-fill"></i></a>
-            <a href="#"><i class="ri-youtube-fill"></i></a>
-          </div>
         </div>
         <div class="trainer__card">
           <img src="assets/trainer-4.jpg" alt="trainer" />
           <h4>SOFIA </h4>
           <p>Crossfit Coach</p>
-          <div class="trainer__socials">
-            <a href="#"><i class="ri-facebook-fill"></i></a>
-            <a href="#"><i class="ri-twitter-fill"></i></a>
-            <a href="#"><i class="ri-youtube-fill"></i></a>
-          </div>
         </div>
       </div>
     </section>
@@ -169,94 +140,76 @@
             <h4>STANDARD</h4>
             <ul>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Gym floor access and standard equipment.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Group fitness classes: yoga, Zumba, Pilates.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Complimentary fitness consultations.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Locker room and showers.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Nutritional guidance and snacks.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Member discounts on merchandise.
               </li>
             </ul>
             <h3><sup>300</sup>DH<span>/month</span></h3>
-            <button class="btn btn__primary">BUY NOW</button>
+            <button class="btn btn__primary" onclick="buyNow()">BUY NOW</button>
           </div>
           <div class="membership__card">
             <h4>PROFESSIONAL</h4>
             <ul>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Standard Membership facilities included.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Priority booking for personal training.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Access to advanced equipment.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Complimentary fitness consultations.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Exclusive member events and workshops.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Discounts on additional services.
               </li>
             </ul>
             <h3><sup>450</sup>DH<span>/month</span></h3>
-            <button class="btn btn__primary">BUY NOW</button>
+            <button class="btn btn__primary" onclick="buyNow()">BUY NOW</button>
           </div>
           <div class="membership__card">
             <h4>ULTIMATE</h4>
             <ul>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Standard and Professional facilities included.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Unlimited access to premium amenities.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Reserved parking or valet service.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Complimentary premium fitness classes.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Customized workout plans.
               </li>
               <li>
-                <span><i class="ri-check-line"></i></span>
                 Priority access to guest passes and events.
               </li>
             </ul>
             <h3><sup>600</sup>DH<span>/month</span></h3>
-            <button class="btn btn__primary">BUY NOW</button>
+            <button class="btn btn__primary" onclick="buyNow()">BUY NOW</button>
           </div>
         </div>
       </div>
@@ -277,6 +230,8 @@
               </p>
               <h4>Sara</h4>
             </div>
+          </div>
+        </div>
       </div>
     </section>
     
@@ -301,20 +256,17 @@
           <ul class="footer__links">
             <li>
               <a href="#">
-                <span><i class="ri-map-pin-2-fill"></i></span>
-                GUELIZ
+               Location: GUELIZ
               </a>
             </li>
             <li>
               <a href="#">
-                <span><i class="ri-phone-fill"></i></span>
-               0686756476
+               Contact: 0686756476
               </a>
             </li>
             <li>
               <a href="#">
-                <span><i class="ri-mail-fill"></i></span>
-                info@fitphysique.com
+               Mail: info@fitphysique.com
               </a>
             </li>
           </ul>
@@ -343,17 +295,14 @@
             <input type="text" placeholder="Enter Email" />
             <button class="btn btn__primary">SEND</button>
           </form>
-          <div class="footer__socials">
-            <a href="#"><i class="ri-facebook-fill"></i></a>
-            <a href="#"><i class="ri-twitter-fill"></i></a>
-            <a href="#"><i class="ri-youtube-fill"></i></a>
-          </div>
         </div>
       </div>
     </footer>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
+    <script>
+      function buyNow() {
+        alert("Purchase was made successfully!");
+      }
+    </script>
   </body>
 </html>
